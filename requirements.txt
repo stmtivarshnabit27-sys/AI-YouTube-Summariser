@@ -1,0 +1,7 @@
+streamlit
+youtube-transcript-api
+google-genai
+reportlab
+python-dotenv
+requests
+firebase-admin
