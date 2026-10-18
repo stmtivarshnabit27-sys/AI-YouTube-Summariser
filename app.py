@@ -299,6 +299,54 @@ st.markdown(
     @media (prefers-reduced-motion: reduce) {
         *, *::before, *::after { animation: none !important; transition: none !important; }
     }
+    
+/* Improve text visibility on light backgrounds */
+label,
+.stTextInput label,
+.stSelectbox label,
+.stRadio label,
+.stCheckbox label {
+    color: #172033 !important;
+}
+
+.stApp,
+.stApp p,
+.stApp span,
+.stApp h1,
+.stApp h2,
+.stApp h3 {
+    color: #172033;
+}
+
+/* Sign-in and sign-up text */
+.stApp input {
+    color: #172033 !important;
+}
+
+.stApp input::placeholder {
+    color: #64748b !important;
+    opacity: 1;
+}
+
+/* Make labels and form text readable */
+.stApp label,
+.stApp .stTextInput label,
+.stApp .stSelectbox label,
+.stApp p {
+    color: #172033 !important;
+}
+
+/* Make input text dark */
+.stApp input {
+    color: #172033 !important;
+}
+
+.stApp input::placeholder {
+    color: #64748b !important;
+    opacity: 1;
+}
+
+
     </style>
     """,
     unsafe_allow_html=True,
